@@ -1,6 +1,6 @@
 # BenchmarkDotnet Example
 
-An example of using `BenchmarkDotnet` to compare performance of multiple methods, in this case the permance difference between using Linq and iteration to sum an array of integers.
+An example of using `BenchmarkDotnet` to compare performance of multiple methods, in this case the performance difference between using Linq and iteration to sum an array of integers.
 
 |  Method |      Mean |     Error |    StdDev |
 |-------- |----------:|----------:|----------:|
@@ -8,7 +8,7 @@ An example of using `BenchmarkDotnet` to compare performance of multiple methods
 | ForEach |  5.291 ns | 0.0383 ns | 0.0339 ns |
 
 
-Nuget source:  
+Nuget:  
 `dotnet add package BenchmarkDotnet`
 
 Reference: 
