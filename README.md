@@ -13,3 +13,13 @@ Nuget:
 
 Reference: 
 https://benchmarkdotnet.org/
+
+
+### Visual Studio Templates
+
+You can create a new benchmark project using the dotnet command `dotnet new benchmark --name MyBenchmarkProject`
+
+To install this template, run the following command `dotnet new --install BenchmarkDotNet.Templates::0.13.1`
+
+More info:
+https://benchmarkdotnet.org/articles/guides/dotnet-new-templates.html
