@@ -1,5 +1,7 @@
 # BenchmarkDotnet Example
 
+This repository is related to the article [Using benchmarkdotnet as a tool to write more efficient code](https://www.makingnoexceptions.co.uk/using-benchmarkdotnet-as-a-tool-to-write-more-efficient-code-27ad05a1f715).
+
 An example of using `BenchmarkDotnet` to compare performance of multiple methods, in this case the performance difference between using Linq and iteration to sum an array of integers.
 
 |  Method |      Mean |     Error |    StdDev |
